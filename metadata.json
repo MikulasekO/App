@@ -1,0 +1,5 @@
+{
+  "name": "Harm Reduction Analyzer",
+  "description": "Profesionální nástroj pro analýzu interakcí psychoaktivních látek zaměřený na snížení rizik (Harm Reduction). Využívá data z TripSit.me a PsychonautWiki k identifikaci nebezpečných kombinací.",
+  "requestFramePermissions": []
+}
