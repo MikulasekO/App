@@ -1,6 +1,6 @@
 
 import { GoogleGenAI, Type } from "@google/genai";
-import { AnalysisResult } from "../types";
+import { AnalysisResult, IdentificationResult } from "../types";
 
 const SYSTEM_PROMPT = `
 Jsi odborný systém pro harm reduction (snižování rizik) v oblasti psychoaktivních látek. Tvým úkolem je analyzovat seznam látek zadaný uživatelem a identifikovat nebezpečné interakce.
@@ -22,8 +22,40 @@ STRUKTURA ODPOVĚDI (Musí být platné JSON):
 }
 `;
 
+const IDENTIFICATION_PROMPT = `
+Jsi inteligentní sémantický interpret pro medicínsko-chemickou databázi. Tvým úkolem není prosté vyhledávání, ale hloubková analýza uživatelského vstupu za účelem identifikace látky.
+
+TVOJE SCHOPNOSTI:
+1. SEMANTICKÉ CHÁPÁNÍ: Rozumíš tomu, že "THC", "tráva", "hulení" nebo "marihuana" vše směřuje ke klíči [Cannabis].
+2. LINGVISTICKÁ ANALÝZA: Rozpoznáš slangové výrazy (např. český slang: "piko", "peří", "koule", "emko", "papiňák").
+3. OPRAVA ŠUMU: Inteligentně opravuješ překlepy a fonetické zápisy (např. "kokain", "kokaian", "cocain").
+
+SEZNAM CÍLOVÝCH KLÍČŮ (Klíče v naší databázi):
+[Cannabis, Ketamine, Amphetamines, MDMA, Cocaine, Alcohol, GHB/GBL, Opioids, Tramadol, Benzodiazepines, SSRIs, Mescaline, LSD, Nitrous, O-PCE, Mushrooms, DMT, 2C-B, AL-LAD, LSA, Caffeine, Nicotine, Methamphetamine, Kratom, Fentanyl, MAOIs, Quetiapine, DXM, MXE, Heroin]
+
+TVŮJ ÚKOL:
+- Analyzuj vstup uživatele. 
+- Na základě svých znalostí o chemii, drogách a slangu urči, o jakou látku se jedná.
+- Namapuj ji na jeden z výše uvedených KLÍČŮ.
+
+VÝSTUP (Striktní JSON Array):
+[
+  {
+    "recognized": true/false,
+    "databaseKey": "NázevKlíčeZSeznamu",
+    "identifiedAs": "Oficiální název látky",
+    "originalTerm": "Slovo, které napsal uživatel",
+    "confidence": 0.0-1.0
+  }
+]
+
+Pokud vstup absolutně nedává smysl v kontextu psychoaktivních látek, nastav 'recognized' na false.
+`;
+
+const getClient = () => new GoogleGenAI({ apiKey: process.env.API_KEY || '' });
+
 export const analyzeSubstances = async (substances: string[]): Promise<AnalysisResult> => {
-  const ai = new GoogleGenAI({ apiKey: process.env.API_KEY || '' });
+  const ai = getClient();
   
   const response = await ai.models.generateContent({
     model: 'gemini-3-flash-preview',
@@ -50,4 +82,33 @@ export const analyzeSubstances = async (substances: string[]): Promise<AnalysisR
     ...data,
     rawResponse: response.text
   };
+};
+
+export const identifySubstances = async (inputs: string[]): Promise<IdentificationResult[]> => {
+  const ai = getClient();
+
+  const response = await ai.models.generateContent({
+    model: 'gemini-3-flash-preview',
+    contents: `Identifikuj tyto látky: ${inputs.join(', ')}`,
+    config: {
+      systemInstruction: IDENTIFICATION_PROMPT,
+      responseMimeType: "application/json",
+      responseSchema: {
+        type: Type.ARRAY,
+        items: {
+          type: Type.OBJECT,
+          properties: {
+            recognized: { type: Type.BOOLEAN },
+            databaseKey: { type: Type.STRING, nullable: true },
+            identifiedAs: { type: Type.STRING },
+            originalTerm: { type: Type.STRING },
+            confidence: { type: Type.NUMBER }
+          },
+          required: ["recognized", "identifiedAs", "originalTerm", "confidence"]
+        }
+      }
+    },
+  });
+
+  return JSON.parse(response.text || '[]');
 };

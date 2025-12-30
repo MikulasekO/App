@@ -1,0 +1,1303 @@
+
+{
+  "substances": [
+    {
+      "pair": "LSD",
+      "risk_level": "Low Risk",
+      "summary": "Silné klasické psychedelikum ze třídy lysergamidů. Působí dlouhodobou alterací vědomí, vizuálními halucinacemi a introspekcí.",
+      "mechanism": "Působí jako parciální agonista na serotoninových receptorech 5-HT2A, 5-HT2C a dopaminových D2 receptorech. Zvyšuje glutamátergní přenos v kůře.",
+      "warning": "Riziko 'bad tripu', úzkosti a u predisponovaných jedinců spuštění latentních psychických poruch. Fyzická toxicita je minimální, ale hrozí vazokonstrikce.",
+      "source": "PsychonautWiki"
+    },
+    {
+      "pair": "Mushrooms",
+      "risk_level": "Low Risk",
+      "summary": "Magické houby obsahující psilocybin. Vyvolávají euforii, vizuální změny a spirituální zážitky.",
+      "mechanism": "Psilocin (metabolit) je agonista 5-HT2A a 5-HT1A receptorů. Snižuje aktivitu v 'Default Mode Network' (DMN), což vede k rozpadu ega.",
+      "warning": "Může způsobit silnou nevolnost, zvracení a dezorientaci. Nevhodné pro osoby s rodinnou anamnézou schizofrenie.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Mescaline",
+      "risk_level": "Low Risk",
+      "summary": "Přírodní fenethylamin z kaktusů (Peyotl, San Pedro). Dlouhotrvající vizuální a tělesné účinky.",
+      "mechanism": "Agonista 5-HT2A a 5-HT2C receptorů. Strukturálně podobný dopaminu a noradrenalinu.",
+      "warning": "Často způsobuje silnou nevolnost a zvracení v první fázi. Dlouhá doba nástupu a trvání (až 12 hodin).",
+      "source": "TripSit"
+    },
+    {
+      "pair": "DMT",
+      "risk_level": "Low Risk",
+      "summary": "Velmi silné, krátkodobě působící psychedelikum. Často označováno jako 'Spirit Molecule'.",
+      "mechanism": "Agonista 5-HT2A, 5-HT2C a sigma-1 receptorů. Rychle prochází hematoencefalickou bariérou.",
+      "warning": "Extrémní intenzita zážitku může být traumatizující. Při kouření dochází k dočasné neschopnosti pohybu (motorická inkoordinace).",
+      "source": "PsychonautWiki"
+    },
+    {
+      "pair": "2C-B",
+      "risk_level": "Low Risk",
+      "summary": "Syntetické psychedelikum s empatogenními prvky. Populární pro svou zvládnutelnost a vizuální efekty.",
+      "mechanism": "Parciální agonista 5-HT2A a 5-HT2C receptorů. Působí i na alfa-adrenergní receptory.",
+      "warning": "Ve vyšších dávkách (nad 25mg) se stává velmi intenzivním. Fyzicky může působit svalové napětí a 'body load'.",
+      "source": "PsychonautWiki"
+    },
+    {
+      "pair": "AL-LAD",
+      "risk_level": "Low Risk",
+      "summary": "Analog LSD, často popisovaný jako vizuálnější, ale s čistší myslí a kratším trváním.",
+      "mechanism": "Agonista 5-HT2A receptorů podobně jako LSD, ale s odlišnou afinitou.",
+      "warning": "Přestože je považován za méně anxiogenní než LSD, stále nese rizika psychedelické krize.",
+      "source": "PsychonautWiki"
+    },
+    {
+      "pair": "LSA",
+      "risk_level": "Caution",
+      "summary": "Přírodní amid kyseliny lysergové (semena Morning Glory, HBWR). Sedativní psychedelikum.",
+      "mechanism": "Agonista 5-HT2A receptorů. Obsahuje další alkaloidy, které přispívají k vazokonstrikci.",
+      "warning": "Způsobuje výraznou vazokonstrikci (bolest nohou), nevolnost a svalové křeče.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Ketamine",
+      "risk_level": "Caution",
+      "summary": "Disociativní anestetikum. Způsobuje oddělení mysli od těla a analgezii.",
+      "mechanism": "Non-kompetitivní antagonista NMDA receptorů (blokuje glutamát).",
+      "warning": "Při chronickém užívání způsobuje závažné poškození močového měchýře a ledvin. Riziko pádu a úrazu.",
+      "source": "PsychonautWiki"
+    },
+    {
+      "pair": "Nitrous",
+      "risk_level": "Low Risk",
+      "summary": "Rajský plyn. Krátkodobé disociativum a anestetikum, vyvolává euforii.",
+      "mechanism": "Antagonista NMDA receptorů, uvolňuje endogenní opioidy.",
+      "warning": "Při nadměrném užívání oxiduje vitamín B12 (riziko neuropatie). Nutný přísun kyslíku, nikdy nepoužívat s maskou.",
+      "source": "PsychonautWiki"
+    },
+    {
+      "pair": "DXM",
+      "risk_level": "Caution",
+      "summary": "Antitusikum s disociativními účinky ve vysokých dávkách.",
+      "mechanism": "Neselektivní inhibitor zpětného vychytávání serotoninu a antagonista NMDA receptorů. Agonista sigma-1.",
+      "warning": "Riziko serotoninového syndromu při kombinaci s antidepresivy. Sirupy často obsahují další škodlivé látky (paracetamol).",
+      "source": "TripSit"
+    },
+    {
+      "pair": "MXE",
+      "risk_level": "Caution",
+      "summary": "Methoxetamine. Silné disociativum s delším trváním než ketamin.",
+      "mechanism": "Antagonista NMDA receptorů a inhibitor zpětného vychytávání serotoninu (SRI).",
+      "warning": "Může způsobit mánii a stimulaci. Kombinace s jinými serotonergními látkami je riziková.",
+      "source": "PsychonautWiki"
+    },
+    {
+      "pair": "O-PCE",
+      "risk_level": "Caution",
+      "summary": "Velmi potentní disociativum. Stimulující a dlouhotrvající.",
+      "mechanism": "Silný antagonista NMDA receptorů a SRI.",
+      "warning": "Riziko mánie a 'hole' stavu trvajícího hodiny. Velmi malé dávkování (mg).",
+      "source": "PsychonautWiki"
+    },
+    {
+      "pair": "Amphetamines",
+      "risk_level": "Caution",
+      "summary": "Stimulanty CNS (Speed, Adderall). Zvyšují bdělost a soustředění.",
+      "mechanism": "Uvolňují dopamin a norepinefrin z vezikul do synapse (přes VMAT2 a TAAR1).",
+      "warning": "Zvyšují krevní tlak a tep. Hrozí úzkost, nespavost, paranoia a při předávkování psychóza.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "MDMA",
+      "risk_level": "Moderate",
+      "summary": "Empatogen a stimulant (Ecstasy). Zvyšuje pocity lásky a energie.",
+      "mechanism": "Masivní vyplavení serotoninu, dopaminu a norepinefrinu přes transportéry SERT/DAT/NET.",
+      "warning": "Neurotoxicita při častém užívání. Riziko hypertermie a hyponatremie. Dodržovat pravidlo 3 měsíců.",
+      "source": "PsychonautWiki"
+    },
+    {
+      "pair": "Cocaine",
+      "risk_level": "Dangerous",
+      "summary": "Krátkodobý silný stimulant. Vyvolává intenzivní euforii.",
+      "mechanism": "Inhibitor zpětného vychytávání dopaminu (DRI). Blokuje sodíkové kanály (kardiotoxicita).",
+      "warning": "Vysoké riziko závislosti, srdeční arytmie a infarktu. S alkoholem tvoří toxický kokaethylen.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Methamphetamine",
+      "risk_level": "Dangerous",
+      "summary": "Pervitin. Extrémně silný a dlouhotrvající stimulant.",
+      "mechanism": "Obrací chod transportérů, pumpuje neurotransmitery do synapse. Neurotoxický pro dopaminové terminály.",
+      "warning": "Vysoké riziko toxické psychózy, trvalého poškození mozku a extrémního vyčerpání.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Caffeine",
+      "risk_level": "Low Risk",
+      "summary": "Nejrozšířenější stimulant. Zvyšuje bdělost.",
+      "mechanism": "Antagonista adenosinových receptorů (zabraňuje únavě).",
+      "warning": "Ve vysokých dávkách způsobuje úzkost, třes a bušení srdce. Může zhoršit účinky psychedelik.",
+      "source": "PsychonautWiki"
+    },
+    {
+      "pair": "Nicotine",
+      "risk_level": "Caution",
+      "summary": "Stimulant a relaxant obsažený v tabáku.",
+      "mechanism": "Agonista nikotinových acetylcholinových receptorů.",
+      "warning": "Vysoce návykový. Zvyšuje krevní tlak a riziko kardiovaskulárních chorob.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Alcohol",
+      "risk_level": "Moderate",
+      "summary": "Depresivum CNS. Způsobuje uvolnění, ataxii a ztrátu zábran.",
+      "mechanism": "Modulátor GABA-A receptorů (tlumivý efekt) a antagonista NMDA (paměť).",
+      "warning": "Při předávkování hrozí respirační deprese a aspirace zvratků. Nebezpečné kombinace s tlumivými látkami.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Benzodiazepines",
+      "risk_level": "Moderate",
+      "summary": "Léky proti úzkosti (Xanax, Valium). Sedace a svalová relaxace.",
+      "mechanism": "Zvyšují účinnost GABA vazbou na GABA-A receptor.",
+      "warning": "Riziko 'blackoutu', závislosti a smrtelného absťáku. Nekombinovat s alkoholem/opiáty.",
+      "source": "PsychonautWiki"
+    },
+    {
+      "pair": "GHB/GBL",
+      "risk_level": "Dangerous",
+      "summary": "Tekutá extáze. V malých dávkách euforie, ve velkých kóma.",
+      "mechanism": "Agonista GHB a GABA-B receptorů.",
+      "warning": "Extrémně strmá dávkovací křivka. Smrtelné v kombinaci s alkoholem (zástava dechu).",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Heroin",
+      "risk_level": "Dangerous",
+      "summary": "Silný opioid. Vyvolává euforii a snové stavy.",
+      "mechanism": "Agonista m-opioidních receptorů. Metabolizuje se na morfin.",
+      "warning": "Vysoké riziko předávkování (zástava dechu) a extrémní fyzická závislost.",
+      "source": "PsychonautWiki"
+    },
+    {
+      "pair": "Fentanyl",
+      "risk_level": "Fatal",
+      "summary": "Syntetický opioid, 50-100x silnější než morfin.",
+      "mechanism": "Vysoce potentní agonista m-opioidních receptorů.",
+      "warning": "Extrémní riziko smrtelného předávkování i při mikrogramových dávkách. Často příměs v jiných drogách.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Kratom",
+      "risk_level": "Caution",
+      "summary": "Rostlinný opioid/stimulant.",
+      "mechanism": "Mitragynin je parciální agonista m-opioidních receptorů.",
+      "warning": "Vzniká fyzická závislost. Může zatěžovat játra. Riziko nevolnosti.",
+      "source": "PsychonautWiki"
+    },
+    {
+      "pair": "Tramadol",
+      "risk_level": "Dangerous",
+      "summary": "Atypický opioid s antidepresivními účinky.",
+      "mechanism": "Agonista m-opioidních receptorů a SNRI (serotonin/norepinefrin reuptake inhibitor).",
+      "warning": "Snižuje práh pro epileptické záchvaty. Riziko serotoninového syndromu.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Cannabis",
+      "risk_level": "Low Risk",
+      "summary": "Marihuana/THC. Relaxace a změna vnímání.",
+      "mechanism": "Parciální agonista CB1 a CB2 receptorů.",
+      "warning": "Může vyvolat úzkost, paranoiu a zhoršit krátkodobou paměť.",
+      "source": "PsychonautWiki"
+    },
+    {
+      "pair": "SSRIs",
+      "risk_level": "Caution",
+      "summary": "Běžná antidepresiva (Prozac, Zoloft).",
+      "mechanism": "Selektivní inhibitory zpětného vychytávání serotoninu.",
+      "warning": "Blokují účinky psychedelik a MDMA. V kombinaci s MAOI nebo DXM hrozí smrtelný serotoninový syndrom.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "MAOIs",
+      "risk_level": "Dangerous",
+      "summary": "Inhibitory monoaminooxidázy (Ayahuasca, některá antidepresiva).",
+      "mechanism": "Blokují enzymy rozkládající neurotransmitery.",
+      "warning": "Kritické interakce s mnoha látkami (MDMA, DXM, stimulanty) a potravinami (tyramin).",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Quetiapine",
+      "risk_level": "Caution",
+      "summary": "Atypické antipsychotikum (Seroquel). Používá se jako 'trip killer'.",
+      "mechanism": "Antagonista dopaminových (D2) a serotoninových (5-HT2A) receptorů.",
+      "warning": "Silná sedace, ortostatická hypotenze. Nekombinovat s látkami prodlužujícími QT interval.",
+      "source": "PsychonautWiki"
+    }
+  ],
+  "interactions": [
+    {
+      "pair": "Cannabis + LSD",
+      "risk_level": "Caution",
+      "summary": "Cannabis has an unexpectedly strong and somewhat unpredictable synergy with psychedelics.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Amphetamines + LSD",
+      "risk_level": "Caution",
+      "summary": "Stimulants increase anxiety levels and the risk of thought loops which can lead to negative experiences.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Cocaine + LSD",
+      "risk_level": "Caution",
+      "summary": "Stimulants increase anxiety levels and the risk of thought loops which can lead to negative experiences.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "LSD + Tramadol",
+      "risk_level": "Dangerous",
+      "summary": "Tramadol is well known to lower seizure threshold and psychedelics also cause occasional seizures.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka. http://www.ncbi.nlm.nih.gov/pubmed/3006089",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Cannabis + Mushrooms",
+      "risk_level": "Caution",
+      "summary": "Cannabis has an unexpectedly strong and somewhat unpredictable synergy with psychedelics.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Amphetamines + Mushrooms",
+      "risk_level": "Caution",
+      "summary": "Stimulants increase anxiety levels and the risk of thought loops which can lead to negative experiences.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Cocaine + Mushrooms",
+      "risk_level": "Caution",
+      "summary": "Stimulants increase anxiety levels and the risk of thought loops which can lead to negative experiences.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Mushrooms + Tramadol",
+      "risk_level": "Dangerous",
+      "summary": "Tramadol is well known to lower seizure threshold and psychedelics also cause occasional seizures.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Cannabis + DMT",
+      "risk_level": "Caution",
+      "summary": "Cannabis has an unexpectedly strong and somewhat unpredictable synergy with psychedelics.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Amphetamines + DMT",
+      "risk_level": "Caution",
+      "summary": "Stimulants increase anxiety levels and the risk of thought loops which can lead to negative experiences.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Cocaine + DMT",
+      "risk_level": "Caution",
+      "summary": "Stimulants increase anxiety levels and the risk of thought loops which can lead to negative experiences.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "DMT + Tramadol",
+      "risk_level": "Dangerous",
+      "summary": "Tramadol is well known to lower seizure threshold and psychedelics also cause occasional seizures.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka. http://www.ncbi.nlm.nih.gov/pubmed/3006089",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Cannabis + Mescaline",
+      "risk_level": "Caution",
+      "summary": "Cannabis has an unexpectedly strong and somewhat unpredictable synergy with psychedelics.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Amphetamines + Mescaline",
+      "risk_level": "Caution",
+      "summary": "The focus and anxiety caused by stimulants is magnified by psychedelics and results in an increased risk of thought loops.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Cocaine + Mescaline",
+      "risk_level": "Caution",
+      "summary": "The focus and anxiety caused by stimulants is magnified by psychedelics and results in an increased risk of thought loops.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Caffeine + Mescaline",
+      "risk_level": "Low Risk",
+      "summary": "High doses of caffeine are uncomfortable and this will be magnified by psychedelics.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Mescaline + Tramadol",
+      "risk_level": "Dangerous",
+      "summary": "This combination can cause seizures due to the lowering of the threshold by tramadol and the potential of mescaline to cause seziures.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Cannabis + DOx",
+      "risk_level": "Caution",
+      "summary": "Cannabis has an unexpectedly strong and somewhat unpredictable synergy with psychedelics.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "DOx + Ketamine",
+      "risk_level": "Low Risk",
+      "summary": "Ketamine and psychedelics tend to potentiate each other - go slowly.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "DOx + MXE",
+      "risk_level": "Caution",
+      "summary": "As an NMDA antagonist MXE potentiates DOx which can be unpleasantly intense.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "DOx + DXM",
+      "risk_level": "Dangerous",
+      "summary": "The DOx class as psychedelic stimulants have the potential to mask the effects of DXM and could lead to redosing to an unsafe level.",
+      "note": "DXM can also potentiate DOx resulting in an unpleasantly intense experience.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "DOx + PCP",
+      "risk_level": "Dangerous",
+      "summary": "Details of this combination are not well understood but PCP generally interacts in an unpredictable manner.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Amphetamines + DOx",
+      "risk_level": "Dangerous",
+      "summary": "The combined stimulating effects of the two can lead to an uncomfortable body-load, thought loops, and anxiety.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka. http://www.ncbi.nlm.nih.gov/pubmed/1208759",
+      "source": "TripSit"
+    },
+    {
+      "pair": "DOx + MDMA",
+      "risk_level": "Caution",
+      "summary": "The combined stimulating effects of the two can be uncomfortable. Coming down on the MDMA while the DOx is still active can be quite anxiogenic.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Cocaine + DOx",
+      "risk_level": "Dangerous",
+      "summary": "The combined stimulating effects of the two can lead to an uncomfortable body-load, thought loops, and anxiety.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Caffeine + DOx",
+      "risk_level": "Caution",
+      "summary": "High doses of caffeine may cause anxiety which is less manageable when tripping.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Alcohol + DOx",
+      "risk_level": "Low Risk",
+      "summary": "Drinking on stimulants is risky because the sedative effects of the alcohol are reduced, leading to excessive drinking.",
+      "note": "High risk of liver damage and increased dehydration.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "DOx + Opioids",
+      "risk_level": "Low Risk",
+      "summary": "No unexpected interactions.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "DOx + Tramadol",
+      "risk_level": "Dangerous",
+      "summary": "Tramadol is well known to lower seizure threshold and psychedelics also cause occasional seizures.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "DOx + MAOIs",
+      "risk_level": "Caution",
+      "summary": "MAO-B inhibitors can increase the potency and duration of phenethylamines unpredictably.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Cannabis + NBOMes",
+      "risk_level": "Caution",
+      "summary": "Cannabis has an unexpectedly strong and somewhat unpredictable synergy with psychedelics.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "MXE + NBOMes",
+      "risk_level": "Caution",
+      "summary": "As an NMDA antagonist MXE potentiates NBOMes which can be unpleasantly intense.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Amphetamines + NBOMes",
+      "risk_level": "Dangerous",
+      "summary": "Can result in tachycardia, hypertension, vasoconstriction and heart failure. Seizure risk increased.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Cocaine + NBOMes",
+      "risk_level": "Dangerous",
+      "summary": "Can result in severe vasoconstriction, tachycardia, hypertension, and in extreme cases heart failure.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Caffeine + NBOMes",
+      "risk_level": "Caution",
+      "summary": "Caffiene can bring out the natural stimulation from psychedelic drugs to make it uncomfortable.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "NBOMes + Tramadol",
+      "risk_level": "Dangerous",
+      "summary": "Tramadol is well known to lower seizure threshold and NBOMes have also shown a tendency to cause severe seizures.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "MAOIs + NBOMes",
+      "risk_level": "Caution",
+      "summary": "MAO-B inhibitors can increase the potency and duration of phenethylamines unpredictably.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Cannabis + 2C-x",
+      "risk_level": "Caution",
+      "summary": "Cannabis has an unexpectedly strong and somewhat unpredictable synergy with psychedelics.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Amphetamines + 2C-x",
+      "risk_level": "Caution",
+      "summary": "The anxiogenic and focusing effects of stimulants increase the chance of unpleasant thought loops.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Cocaine + 2C-x",
+      "risk_level": "Caution",
+      "summary": "The anxiogenic and focusing effects of stimulants increase the chance of unpleasant thought loops.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "2C-x + Caffeine",
+      "risk_level": "Low Risk",
+      "summary": "High doses of caffeine may cause anxiety which is less manageable when tripping.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "2C-x + Tramadol",
+      "risk_level": "Dangerous",
+      "summary": "Tramadol is well known to lower seizure threshold and psychedelics raise the risk of seizures.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "2C-x + MAOIs",
+      "risk_level": "Caution",
+      "summary": "MAO-B inhibitors can increase the potency and duration of phenethylamines unpredictably.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Cannabis + 2C-T-x",
+      "risk_level": "Caution",
+      "summary": "Cannabis has an unexpectedly strong and somewhat unpredictable synergy with psychedelics.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Amphetamines + 2C-T-x",
+      "risk_level": "Dangerous",
+      "summary": "Stimulants increase anxiety levels and risk of thought loops. Can result in severe vasoconstriction, tachycardia, heart failure.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Cocaine + 2C-T-x",
+      "risk_level": "Dangerous",
+      "summary": "Can result in severe vasoconstriction, tachycardia, hypertension, and in extreme cases heart failure.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "2C-T-x + Caffeine",
+      "risk_level": "Low Risk",
+      "summary": "High doses of caffeine may cause anxiety which is less manageable when tripping.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Alcohol + 2C-T-x",
+      "risk_level": "Low Risk",
+      "summary": "Both these classes of compound can interact unpredictably. Caution should be exercised.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "2C-T-x + Opioids",
+      "risk_level": "Low Risk",
+      "summary": "Some opioids have serotonin action and could lead to Serotonin Syndrome or a seizure (e.g., Tramadol, Methadone).",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "2C-T-x + MAOIs",
+      "risk_level": "Caution",
+      "summary": "MAO-B inhibitors can increase the potency and duration of phenethylamines unpredictably.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Cannabis + aMT",
+      "risk_level": "Caution",
+      "summary": "Cannabis has an unexpectedly strong and somewhat unpredictable synergy with psychedelics.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "aMT + Caffeine",
+      "risk_level": "Caution",
+      "summary": "High doses of caffeine may cause anxiety which is less manageable when tripping.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Alcohol + aMT",
+      "risk_level": "Caution",
+      "summary": "aMT has a broad mechanism of action in the brain and so does alcohol so the combination can be unpredictable.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "aMT + Opioids",
+      "risk_level": "Low Risk",
+      "summary": "No unexpected interactions.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "aMT + MAOIs",
+      "risk_level": "Dangerous",
+      "summary": "aMT is an MAOI on its own. Using enzyme inhibitors can greatly reduce predictability of effects.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "5-MeO-xxT + MXE",
+      "risk_level": "Low Risk",
+      "summary": "Little information exists about this combination.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "5-MeO-xxT + DXM",
+      "risk_level": "Dangerous",
+      "summary": "Little information exists about this combination.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "5-MeO-xxT + Cannabis",
+      "risk_level": "Caution",
+      "summary": "Cannabis has an unexpectedly strong and somewhat unpredictable synergy with psychedelics.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "5-MeO-xxT + Amphetamines",
+      "risk_level": "Dangerous",
+      "summary": "The anxiogenic and focusing effects of stimulants increase the chance of unpleasant thought loops.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "5-MeO-xxT + MDMA",
+      "risk_level": "Caution",
+      "summary": "Some of the 5-MeO tryptamines are a bit unpredictable and should be mixed with MDMA with care.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka. https://www.ncbi.nlm.nih.gov/pubmed/28677880",
+      "source": "TripSit"
+    },
+    {
+      "pair": "5-MeO-xxT + Cocaine",
+      "risk_level": "Dangerous",
+      "summary": "The anxiogenic and focusing effects of stimulants increase the chance of unpleasant thought loops.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "5-MeO-xxT + Caffeine",
+      "risk_level": "Low Risk",
+      "summary": "High doses of caffeine may cause anxiety which is less manageable when tripping.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Amphetamines + Cannabis",
+      "risk_level": "Caution",
+      "summary": "Stimulants increase anxiety levels and the risk of thought loops which can lead to negative experiences.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Cannabis + MDMA",
+      "risk_level": "Low Risk",
+      "summary": "Large amounts of either or both may cause strong and somewhat unpredictable experiences. Cannabis should be saved for the end.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Cannabis + Cocaine",
+      "risk_level": "Caution",
+      "summary": "Stimulants increase anxiety levels and the risk of thought loops which can lead to negative experiences.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Alcohol + Cannabis",
+      "risk_level": "Low Risk",
+      "summary": "In excess, this combination can cause nausea.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Amphetamines + Ketamine",
+      "risk_level": "Caution",
+      "summary": "Likely to increase blood pressure. Moving around on high doses may be ill advised due to risk of injury.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka. http://www.ncbi.nlm.nih.gov/pubmed/23660488",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Ketamine + MDMA",
+      "risk_level": "Low Risk",
+      "summary": "No unexpected interactions, though likely to increase blood pressure.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Cocaine + Ketamine",
+      "risk_level": "Caution",
+      "summary": "Likely to increase blood pressure. Moving around on high doses may be ill advised due to risk of injury.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Caffeine + Ketamine",
+      "risk_level": "Low Risk",
+      "summary": "No unexpected interactions.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka. http://onlinelibrary.wiley.com/doi/10.1111/j.1742-7843.2009.00382.x/full",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Alcohol + Ketamine",
+      "risk_level": "Dangerous",
+      "summary": "Both substances cause ataxia and bring a very high risk of vomiting and unconsciousness.",
+      "note": "Severe risk of vomit aspiration. http://onlinelibrary.wiley.com/doi/10.1002/jemt.22045/abstract",
+      "source": "TripSit"
+    },
+    {
+      "pair": "GHB/GBL + Ketamine",
+      "risk_level": "Dangerous",
+      "summary": "Both substances cause ataxia and bring a risk of vomiting and unconsciousness.",
+      "note": "Severe risk of vomit aspiration. http://www.ncbi.nlm.nih.gov/pubmed/16483730",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Ketamine + Opioids",
+      "risk_level": "Dangerous",
+      "summary": "Both substances bring a risk of vomiting and unconsciousness.",
+      "note": "Severe risk of vomit aspiration. http://www.ncbi.nlm.nih.gov/pubmed/21224020",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Benzodiazepines + Ketamine",
+      "risk_level": "Caution",
+      "summary": "Both substances potentiate the ataxia and sedation caused by the other and can lead to unexpected loss of consciousness.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Ketamine + MAOIs",
+      "risk_level": "Caution",
+      "summary": "MAO-B inhibitors appear to increase the potency of Ketamine.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "MXE + PCP",
+      "risk_level": "Caution",
+      "summary": "There are no reports available about this combination.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Amphetamines + MXE",
+      "risk_level": "Caution",
+      "summary": "Risk of tachycardia, hypertension, and manic states.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka. http://www.ncbi.nlm.nih.gov/pubmed/25060403",
+      "source": "TripSit"
+    },
+    {
+      "pair": "MDMA + MXE",
+      "risk_level": "Caution",
+      "summary": "Risky serotonergic interactions when the two are taken at the same time.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Cocaine + MXE",
+      "risk_level": "Caution",
+      "summary": "Stimulants taken with MXE can lead to hypermanic states much more easily, especially if sleep is avoided.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Caffeine + MXE",
+      "risk_level": "Low Risk",
+      "summary": "No likely interactions.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Alcohol + MXE",
+      "risk_level": "Dangerous",
+      "summary": "There is a high risk of memory loss, vomiting and severe ataxia from this combination.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "GHB/GBL + MXE",
+      "risk_level": "Dangerous",
+      "summary": "Both substances cause ataxia and bring a risk of vomiting and unconsciousness.",
+      "note": "Severe risk of vomit aspiration. Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "MXE + Opioids",
+      "risk_level": "Dangerous",
+      "summary": "This combination can potentiate the effects of the opioid.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Benzodiazepines + MXE",
+      "risk_level": "Caution",
+      "summary": "Both substances potentiate the ataxia and sedation caused by the other and can lead to unexpected loss of consciousness.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "MAOIs + MXE",
+      "risk_level": "Dangerous",
+      "summary": "MAO-B inhibitors appear to increase the potency of MXE.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "MXE + SSRIs",
+      "risk_level": "Caution",
+      "summary": "Depending on the SSRI this combination can be unpredictable.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Amphetamines + DXM",
+      "risk_level": "Dangerous",
+      "summary": "Both substances raise heart rate, in extreme cases, panic attacks have led to serious heart issues.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Cocaine + DXM",
+      "risk_level": "Dangerous",
+      "summary": "Both substances raise heart rate, in extreme cases, panic attacks have led to serious heart issues.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Caffeine + DXM",
+      "risk_level": "Low Risk",
+      "summary": "High doses of caffeine may cause anxiety which is less manageable when tripping.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Alcohol + DXM",
+      "risk_level": "Dangerous",
+      "summary": "Both substances potentiate the ataxia and sedation. CNS depression can lead to difficulty breathing.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "DXM + GHB/GBL",
+      "risk_level": "Dangerous",
+      "summary": "Both substances cause ataxia and bring a risk of vomiting and unconsciousness.",
+      "note": "This combination is hard to predict. Severe risk of vomit aspiration.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "DXM + Opioids",
+      "risk_level": "Dangerous",
+      "summary": "CNS depression, difficult breathing, heart issues, hepatoxic. Very unsafe combination.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Benzodiazepines + DXM",
+      "risk_level": "Caution",
+      "summary": "Both substances potentiate the ataxia and sedation caused by the other and this can lead to unexpected loss of consciousness.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "DXM + MAOIs",
+      "risk_level": "Dangerous",
+      "summary": "High risk of serotonin syndrome.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "DXM + SSRIs",
+      "risk_level": "Dangerous",
+      "summary": "High risk of serotonin syndrome.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Amphetamines + PCP",
+      "risk_level": "Dangerous",
+      "summary": "This combination can easily lead to hypermanic states.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "MDMA + PCP",
+      "risk_level": "Dangerous",
+      "summary": "This combination can easily lead to hypermanic states.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Cocaine + PCP",
+      "risk_level": "Dangerous",
+      "summary": "This combination can easily lead to hypermanic states.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Caffeine + PCP",
+      "risk_level": "Caution",
+      "summary": "Details of this combination are not well understood but PCP generally interacts in an unpredictable manner.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Alcohol + PCP",
+      "risk_level": "Dangerous",
+      "summary": "Details of this combination are not well understood but PCP generally interacts in an unpredictable manner.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "GHB/GBL + PCP",
+      "risk_level": "Dangerous",
+      "summary": "Details of this combination are not well understood but PCP generally interacts in an unpredictable manner.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Opioids + PCP",
+      "risk_level": "Caution",
+      "summary": "PCP can reduce opioid tolerance, increasing the risk of overdose.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Benzodiazepines + PCP",
+      "risk_level": "Dangerous",
+      "summary": "Both substances potentiate the ataxia and sedation caused by the other and can lead to unexpected loss of consciousness.",
+      "note": "Memory blackouts are likely. Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "MAOIs + PCP",
+      "risk_level": "Dangerous",
+      "summary": "This combination is very poorly explored.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "PCP + SSRIs",
+      "risk_level": "Dangerous",
+      "summary": "Details of this combination are not well understood but PCP generally interacts in an unpredictable manner.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Alcohol + Nitrous",
+      "risk_level": "Caution",
+      "summary": "Both substances potentiate the ataxia and sedation caused by the other. Can lead to unexpected loss of consciousness.",
+      "note": "Memory blackouts are likely. Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "GHB/GBL + Nitrous",
+      "risk_level": "Caution",
+      "summary": "Both substances potentiate the ataxia and sedation caused by the other. Can lead to unexpected loss of consciousness.",
+      "note": "Memory blackouts are likely. Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Nitrous + Opioids",
+      "risk_level": "Caution",
+      "summary": "Both substances potentiate the ataxia and sedation caused by the other. Can lead to unexpected loss of consciousness.",
+      "note": "Memory blackouts are likely. Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Nitrous + Tramadol",
+      "risk_level": "Caution",
+      "summary": "Both substances potentiate the ataxia and sedation caused by the other. Can lead to unexpected loss of consciousness.",
+      "note": "Memory blackouts are likely. Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Amphetamines + MDMA",
+      "risk_level": "Low Risk",
+      "summary": "Amphetamines increase the neurotoxic effects of MDMA.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Amphetamines + Cocaine",
+      "risk_level": "Caution",
+      "summary": "This combination of stimulants will increase strain on the heart.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Amphetamines + Caffeine",
+      "risk_level": "Caution",
+      "summary": "This combination of stimulants is not generally necessary and may increase strain on the heart.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Alcohol + Amphetamines",
+      "risk_level": "Caution",
+      "summary": "Drinking on stimulants is risky because the sedative effects of the alcohol are reduced, leading to excessive drinking.",
+      "note": "High risk of liver damage and dehydration. Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Amphetamines + GHB/GBL",
+      "risk_level": "Caution",
+      "summary": "Stimulants increase respiration rate allowing a higher dose of sedatives. Risk of respiratory arrest if stimulant wears off.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Amphetamines + Opioids",
+      "risk_level": "Caution",
+      "summary": "Stimulants increase respiration rate allowing a higher dose of opiates. Risk of respiratory arrest if stimulant wears off.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Amphetamines + Tramadol",
+      "risk_level": "Dangerous",
+      "summary": "Tramadol and stimulants both increase the risk of seizures.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Amphetamines + Benzodiazepines",
+      "risk_level": "Low Risk",
+      "summary": "Both can dull each other's effects, so if one wears off before the other it's possible to overdose.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka. http://www.ncbi.nlm.nih.gov/pubmed/17320309",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Amphetamines + MAOIs",
+      "risk_level": "Dangerous",
+      "summary": "MAO-A inhibitors with amphetamine can lead to hypertensive crises.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Cocaine + MDMA",
+      "risk_level": "Caution",
+      "summary": "Cocaine blocks some of the desirable effects of MDMA while increasing the risk of heart attack.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Caffeine + MDMA",
+      "risk_level": "Caution",
+      "summary": "Caffiene is not really necessary with MDMA and increases any neurotoxic effects from MDMA.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka. http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3492978/",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Alcohol + MDMA",
+      "risk_level": "Caution",
+      "summary": "Both MDMA and alcohol cause dehydration. More than a small amount of alcohol will dull the euphoria of MDMA.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka. http://www.ncbi.nlm.nih.gov/pubmed/21040238",
+      "source": "TripSit"
+    },
+    {
+      "pair": "GHB/GBL + MDMA",
+      "risk_level": "Caution",
+      "summary": "Large amounts of GHB/GBL may overwhelm the effects of MDMA on the comedown.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka. http://www.ncbi.nlm.nih.gov/pubmed/16234132",
+      "source": "TripSit"
+    },
+    {
+      "pair": "MDMA + Tramadol",
+      "risk_level": "Dangerous",
+      "summary": "Tramadol and stimulants both increase the risk of seizures.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "MAOIs + MDMA",
+      "risk_level": "Dangerous",
+      "summary": "MAO-A inhibitors with MDMA will lead to hypertensive crises.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Caffeine + Cocaine",
+      "risk_level": "Caution",
+      "summary": "Both stimulants, risk of tachycardia, hypertension, and in extreme cases heart failure.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Alcohol + Cocaine",
+      "risk_level": "Dangerous",
+      "summary": "Cocaine is potentiated somewhat by alcohol because of the formation of cocaethylene.",
+      "note": "Drinking on stimulants is risky. High risk of liver damage and dehydration. Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Cocaine + GHB/GBL",
+      "risk_level": "Caution",
+      "summary": "Risk of respiratory arrest if stimulant wears off first.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Cocaine + Opioids",
+      "risk_level": "Dangerous",
+      "summary": "Risk of respiratory arrest if stimulant wears off first.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Cocaine + Tramadol",
+      "risk_level": "Dangerous",
+      "summary": "Tramadol and stimulants both increase the risk of seizures.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Cocaine + MAOIs",
+      "risk_level": "Dangerous",
+      "summary": "This combination is poorly explored.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Cocaine + SSRIs",
+      "risk_level": "Low Risk",
+      "summary": "May reduce each others' effectiveness. Risk of serotonin syndrome.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka. http://www.ncbi.nlm.nih.gov/pubmed/23761390",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Caffeine + Alcohol",
+      "risk_level": "Caution",
+      "summary": "http://www.ncbi.nlm.nih.gov/pubmed/20001110",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Caffeine + Tramadol",
+      "risk_level": "Caution",
+      "summary": "http://www.ncbi.nlm.nih.gov/pubmed/20837047",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Caffeine + SSRIs",
+      "risk_level": "Caution",
+      "summary": "http://journals.lww.com/jpharmacogenetics/abstract/1996/06000/a_fluvoxamine_caffeine_interaction_study.3.aspx",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Alcohol + GHB/GBL",
+      "risk_level": "Dangerous",
+      "summary": "Rapidly leads to memory loss, severe ataxia and unconsciousness.",
+      "note": "High risk of vomit aspiration. http://www.ncbi.nlm.nih.gov/pubmed/15274975",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Alcohol + Opioids",
+      "risk_level": "Dangerous",
+      "summary": "Both substances potentiate the ataxia and sedation. Can lead to unexpected loss of consciousness.",
+      "note": "Severe risk of vomit aspiration. Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Alcohol + Tramadol",
+      "risk_level": "Dangerous",
+      "summary": "Heavy CNS depressants, risk of seizures.",
+      "note": "Severe risk of vomit aspiration. Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Alcohol + Benzodiazepines",
+      "risk_level": "Dangerous",
+      "summary": "Potentiate each other strongly and unpredictably, very rapidly leading to unconsciousness.",
+      "note": "Severe risk of vomit aspiration. Blacking out is almost certain. Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Alcohol + MAOIs",
+      "risk_level": "Dangerous",
+      "summary": "Tyramine found in many alcoholic beverages can have dangerous reactions with MAOIs (increase in blood pressure).",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Alcohol + SSRIs",
+      "risk_level": "Caution",
+      "summary": "May result in additive central nervous system depression and/or impairment.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka. http://www.ncbi.nlm.nih.gov/pubmed/15739105",
+      "source": "TripSit"
+    },
+    {
+      "pair": "GHB/GBL + Opioids",
+      "risk_level": "Dangerous",
+      "summary": "The two substances potentiate each other strongly and unpredictably, very rapidly leading to unconsciousness.",
+      "note": "Severe risk of vomit aspiration. http://www.ncbi.nlm.nih.gov/pubmed/7782758",
+      "source": "TripSit"
+    },
+    {
+      "pair": "GHB/GBL + Tramadol",
+      "risk_level": "Dangerous",
+      "summary": "The sedative effects of this combination can lead to dangerous respiratory depression.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka. http://www.ncbi.nlm.nih.gov/pubmed/7782758",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Benzodiazepines + GHB/GBL",
+      "risk_level": "Dangerous",
+      "summary": "The two substances potentiate each other strongly and unpredictably, very rapidly leading to unconsciousness.",
+      "note": "Severe risk of vomit aspiration. http://www.ncbi.nlm.nih.gov/pubmed/16483730",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Opioids + Tramadol",
+      "risk_level": "Dangerous",
+      "summary": "Concomitant use increases seizure risk. Central nervous system- and/or respiratory-depressant effects may be additive.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Benzodiazepines + Opioids",
+      "risk_level": "Dangerous",
+      "summary": "The two substances potentiate each other strongly and unpredictably, very rapidly leading to unconsciousness.",
+      "note": "Severe risk of vomit aspiration. http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3454351/",
+      "source": "TripSit"
+    },
+    {
+      "pair": "MAOIs + Opioids",
+      "risk_level": "Caution",
+      "summary": "Associated with rare reports of severe and fatal adverse reactions (excitatory or depressive).",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka. http://www.ncbi.nlm.nih.gov/pubmed/17157368",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Opioids + SSRIs",
+      "risk_level": "Low Risk",
+      "summary": "Infrequent reports of a risk of serotonin syndrome.",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka. http://www.ncbi.nlm.nih.gov/pubmed/23391344",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Benzodiazepines + Tramadol",
+      "risk_level": "Dangerous",
+      "summary": "Central nervous system- and/or respiratory-depressant effects may be additively or synergistically present.",
+      "note": "Vomit aspiration a risk. http://www.ncbi.nlm.nih.gov/pubmed/12842359",
+      "source": "TripSit"
+    },
+    {
+      "pair": "MAOIs + Tramadol",
+      "risk_level": "Caution",
+      "summary": "http://www.ncbi.nlm.nih.gov/pubmed/16051647",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka. http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2750095/",
+      "source": "TripSit"
+    },
+    {
+      "pair": "SSRIs + Tramadol",
+      "risk_level": "Caution",
+      "summary": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2714818/",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka. http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2750095/",
+      "source": "TripSit"
+    },
+    {
+      "pair": "Benzodiazepines + SSRIs",
+      "risk_level": "Caution",
+      "summary": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2446479/",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka. http://www.ncbi.nlm.nih.gov/pubmed/9435993",
+      "source": "TripSit"
+    },
+    {
+      "pair": "MAOIs + SSRIs",
+      "risk_level": "Caution",
+      "summary": "http://www.ncbi.nlm.nih.gov/pubmed/24577320",
+      "note": "Pro detailní farmakologický mechanismus přepněte na AI Průzkumníka.",
+      "source": "TripSit"
+    }
+  ]
+}
