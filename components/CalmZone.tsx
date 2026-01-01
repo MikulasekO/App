@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect, useMemo } from 'react';
-import { DiaryData, AnalysisMode } from '../types';
+import { DiaryData, AnalysisMode, DiaryEntry } from '../types';
 
 type Mode = 'menu' | 'breathing' | 'grounding' | 'levels' | 'inventory';
 
@@ -70,7 +70,7 @@ const CalmZone: React.FC<Props> = ({ diaryData = {}, analysisMode = 'VERIFIED' }
     const latestUsageMap: Record<string, number> = {};
 
     // 1. Traverse history to find the LATEST usage timestamp of each substance
-    Object.values(diaryData).flat().forEach(entry => {
+    (Object.values(diaryData).flat() as DiaryEntry[]).forEach(entry => {
       entry.substances.forEach(s => {
         if (!latestUsageMap[s] || entry.timestamp > latestUsageMap[s]) {
           latestUsageMap[s] = entry.timestamp;
